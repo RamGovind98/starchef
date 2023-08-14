@@ -1,0 +1,28 @@
+.itemsList{
+    display: flex;
+    width: 50vw !important;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+   
+}
+/* .imgls{
+    background-image: url("../../Assets/Mask\ Group\ 17@2x.jpg" ) !important;
+    background-repeat: no-repeat;
+    background-position: right;
+    position:absolute;
+    bottom: 20rem;
+    right: 0px;
+    z-index: 999;
+    width: 50vw;
+    height: 50vw;
+
+} */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 800,
+  'GRAD' 24,
+  'opsz' 100
+}

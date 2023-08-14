@@ -1,0 +1,283 @@
+.separator {
+    border-left: 3px solid rgb(223, 223, 223);
+    height: 65%;
+  }
+  .dishesHeading{
+    
+    display: flex;
+    justify-content:space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .ratingBtn{
+    background-color: #51C452 !important;
+    font-size: 13px !important;
+
+    
+ }
+ .star{
+  font-size: 10px;
+ }
+  .dishesList{
+   
+    display: flex;
+    justify-content:space-between ;
+    margin-right: 50px;
+    margin-left: 35px;
+    margin-top: 30px;
+  
+  }
+  .groupImage{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+  }
+  .refridgeImage{
+    height: 30px;
+    width: 20px;
+  }
+  .description{
+    font-size: 22px;
+    font-weight: 300;
+    color: #707070;
+    opacity: 1;
+    
+  }
+  .dishesListImage{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  .equipments{
+    font-size: 14px;
+  }
+  .selected {
+    border: 2px solid #FF941A;
+    color: #FF941A;
+    font-weight: 700;
+  } 
+  addButton{
+    .selected {
+        border: 2px solid #FF941A;
+        color: #FF941A;
+        font-weight: 700;
+      }
+  }
+  .addbtn{
+    position: absolute;
+    width: 100px;
+    top:130px;
+    left: 60px;
+    color: #FF9A26 !important;
+    border: 2px solid #FF9A26 !important;
+    .selected {
+        border: 2px solid #FF941A !important;
+        color: #FF9A26 !important;
+        font-weight: 700;
+      }
+      
+
+  }
+  .addbtn:hover {
+    background-color: #fef5eb !important;
+    border-color: #FF9A26 !important;
+  }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 10,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 24,
+  
+}
+@media (max-width:320px) {
+  .addbtn{
+    position: absolute;
+    width: 100px;
+    top:130px;
+    left: 60px;
+  }
+  .dishesHeading{
+    display: flex;
+    justify-content:space-between ;
+    margin-right: -23px;
+    margin-left: 10px;
+  }
+  .dishesList{
+    display: block;
+  
+    width: 5vw !important;
+  
+  }
+  .description{
+    font-size: 20px;
+    font-weight: 100;
+    color: #707070;
+    opacity: 1;
+    
+  }
+ .headingone{
+  font-size: 10px;
+ } 
+  .dishesListImage{
+    width: 20px !important; 
+    height: 20px !important;
+    border-radius: 10px;
+   
+  }
+
+
+}
+.viewbtn{
+position: "absolute"; 
+top: "25px";
+ color:#FF941A
+}
+@media (min-width:320px) and (max-width:375px) {
+  .dishesListImage{
+    width: 80px !important; 
+    height: 80px !important;
+    border-radius: 10px;
+   
+  }
+  .dishesHeading{
+    display: flex;
+    justify-content:space-between ;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .headingone{
+    font-size: 18px;
+   } 
+   .description{
+    font-size: 18px;
+  }
+  .equipments{
+    font-size: 8px;
+  }
+  .refridgeImage{
+    height: 30px;
+    width: 20px;
+  }
+  .headingtwo{
+    font-size: 15px !important;
+  }
+  .viewbtn{
+    position: "absolute"; top: "25px";
+     color: #FF941A;
+     font-size: 12px !important;
+    }
+    .dishesList{
+   
+      display: flex;
+      justify-content:space-between ;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 30px;
+    
+    }
+    .ratingBtn{
+      background-color: #51C452 !important;
+      font-size: 10px !important;
+      margin-left: 8px;
+      
+   }
+   .addbtn{
+    position: absolute;
+    width: 58px;
+    height: 40px;
+    top:65px;
+    left: 20px;
+    color: #FF9A26 !important;
+    border: 2px solid #FF9A26 !important;
+    .selected {
+        border: 2px solid #FF941A !important;
+        color: #FF9A26 !important;
+        font-weight: 700;
+      }
+      
+
+  }
+   .star{
+    font-size: 10px;
+   }
+}
+@media (min-width:320px) and (max-width:425px) {
+  .dishesListImage{
+    width: 90px !important; 
+    height: 90px !important;
+    border-radius: 10px;
+   
+  }
+  .addbtn{
+    position: absolute;
+    width: 58px;
+    height: 40px;
+    top:65px;
+    left: 20px;
+    color: #FF9A26 !important;
+    border: 2px solid #FF9A26 !important;
+    .selected {
+        border: 2px solid #FF941A !important;
+        color: #FF9A26 !important;
+        font-weight: 700;
+      }
+
+      
+
+  }
+  .dishesHeading{
+    display: flex;
+    justify-content:space-between ;
+    margin-right: -23px;
+    margin-left: 10px;
+  }
+  
+  .headingone{
+    font-size: 18px;
+   } 
+
+   .ratingBtn{
+    background-color: #51C452 !important;
+    font-size: 10px !important;
+    margin-left: 8px;
+    
+ }
+ .star{
+  font-size: 10px;
+ }
+ .groupImage{
+  height: 10px;
+  width: 10px;
+  margin-left: 5px;
+}
+.description{
+  font-size: 18px;
+}
+.equipments{
+  font-size: 9px;
+}
+.refridgeImage{
+  height: 30px;
+  width: 20px;
+}
+.headingtwo{
+  font-size: 15px !important;
+}
+.viewbtn{
+  position: "absolute"; 
+  top: "25px";
+   color: #FF941A;
+   font-size: 12px !important;
+  }
+  .dishesList{
+   
+    display: flex;
+    justify-content:space-between ;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+  
+  }
+}
