@@ -19,7 +19,7 @@ function App() {
     })
   }, [])
   return (
-    <div className="container-fluid">
+    <div className="container-fluid position-relative">
       <div className="row">
         <div className='col-12 d-flex mt-4'>
           <h3 className="font heading-text">
@@ -81,6 +81,17 @@ function App() {
         <hr className='mt-4 border border-4'></hr>
         <Dish className="col-12" data={[Dishes, DishesList]}></Dish>
       </div>
+      <div className='justify-content-center d-flex w-100' style={{position:'sticky',bottom:'50px',alignItems:"center",left:"50%"}}>
+      <div className="toast ts show align-items-center bg-dark text-white " role="alert" aria-live="assertive" aria-atomic="true" style={{position:'sticky',bottom:'50px',}}>
+  <div className="d-flex">
+    <div className="toast-body">
+    3 Food Items Selected 
+   </div>
+    <button type="button" class="btn-close me-2 m-auto " data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+</div>
+      </div>
+      
     </div>
 
   );
